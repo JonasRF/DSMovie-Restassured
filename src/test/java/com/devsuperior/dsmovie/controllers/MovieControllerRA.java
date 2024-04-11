@@ -76,8 +76,8 @@ public class MovieControllerRA {
 				.statusCode(200)
 				.body("id", is(3))
 				.body("title", equalTo("O Espetacular Homem-Aranha 2: A Ameaça de Electro"))
-				.body("score", is(0.0F))
-				.body("count", is(0))
+				.body("score", is(5.0F))
+				.body("count", is(1))
 				.body("image", equalTo("https://www.themoviedb.org/t/p/w533_and_h300_bestv2/u7SeO6Y42P7VCTWLhpnL96cyOqd.jpg"));
 	}
 	
